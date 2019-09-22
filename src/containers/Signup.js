@@ -125,7 +125,7 @@ function Signup(props) {
           Email
          </InputLabel>
         <OutlinedInput
-          id="component-outlined 1"
+          id="component-outlined email"
           name="email"
           type="email"
           value={input.email}
@@ -139,7 +139,7 @@ function Signup(props) {
           Password
          </InputLabel>
         <OutlinedInput
-          id="component-outlined 2"
+          id="component-outlined password"
           name="password"
           type="password"
           value={input.password}
@@ -153,7 +153,7 @@ function Signup(props) {
           Password
          </InputLabel>
         <OutlinedInput
-          id="component-outlined 3"
+          id="component-outlined confirmation"
           name="confirmPassword"
           type="password"
           value={input.confirmPassword}
