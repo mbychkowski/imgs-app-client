@@ -55,7 +55,7 @@ const App = (props) => {
   const userHasAuthenticated = useCallback(authenticated => {
     setAuthentication({ ...authentication, isAuthenticated: authenticated });
   }, [authentication])
-  
+
   const childProps = {
     authentication: authentication,
     userHasAuthenticated: userHasAuthenticated,
