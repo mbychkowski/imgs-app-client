@@ -22,7 +22,7 @@ const prod = {
   },
   apiGateway: {
     REGION: "us-east-1",
-    URL: "https://r67z8x41q6.execute-api.us-east-1.amazonaws.com/prod"
+    URL: "https://api.lesserimages.com/prod"
   },
   cognito: {
     REGION: "us-east-1",
