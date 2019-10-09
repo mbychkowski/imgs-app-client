@@ -14,6 +14,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "REACT_APP_STAGE=prod npm run build",
+    "deploy": "aws s3 sync build/ s3://mage-store-app-client-bych977 --delete",
+    "postdeploy": "aws cloudfront create-invalidation --distribution-id E1IIR48T66436K --paths '/*' && aws cloudfront create-invalidation --distribution-id E1JJPF36BB8THC --paths '/*'",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

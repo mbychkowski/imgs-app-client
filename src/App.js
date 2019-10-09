@@ -89,7 +89,7 @@ const App = (props) => {
         <Toolbar className={classes.toolbar}>
           <Typography variant="h6" color="inherit" noWrap className={classes.toolbarTitle}>
             <Link component={RouterLink} to="/" variant="inherit" color="inherit" underline="none">
-              Lesser Images
+              Lesser
             </Link>
           </Typography>
           {
